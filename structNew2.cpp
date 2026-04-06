@@ -15,4 +15,19 @@ struct Orang
     int umur;
 };
 
+int main () {
+    Orang mhs;
 
+    cout << "Mengisi data" << endl;
+    cout << "Nama: ";
+    cin >> mhs.nama;
+    cout << "Desa: ";
+    cin >> mhs.alamat.desa;
+    cout << "Kota: ";
+    cin >> mhs.alamat.kota;
+    cout << "Umur: ";
+    cin >> mhs.umur;
+    cout << endl;
+
+  
+}
