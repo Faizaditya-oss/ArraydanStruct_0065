@@ -22,6 +22,7 @@ int main () {
     cout << "Data index 4 = ";
     cin >> kamu[4];
     
+    
     cout << "Data Pertama = " << kamu[0] << endl;
     cout << "Data Kedua = " << kamu[1] << endl;
     cout << "Data Ketiga = " << kamu[2] << endl;
